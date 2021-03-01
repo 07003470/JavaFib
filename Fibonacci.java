@@ -1,7 +1,8 @@
+// Fibonacci class
+
 public class Fibonacci {
-
-  //print n (nth number within sequence)
-
+  // print program result method with integer (n)
+  // print n (nth number within sequence)
   public static void printNthSeries (int n) {
     int index;      // index of array
     int size;       // size of array
@@ -32,6 +33,7 @@ public class Fibonacci {
     }
 }
 
+// calculate series method
 // n is equal to nth number of series
 public static int calculateNthSeries(int n) {
     // if n less than 1 = 0, return error message
@@ -40,8 +42,8 @@ public static int calculateNthSeries(int n) {
     // operator check on value of n, if equal to 1 and 2, return 1
     else if(n == 1 || n == 2)
         return 1;
-    // else return n minus 1 + n minus 2
     else
+        // else return n minus 1 + n minus 2
         return calculateNthSeries(n - 1) + calculateNthSeries(n - 2);
     }
 }
