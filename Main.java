@@ -3,7 +3,7 @@ import java.util.Scanner;
 // calculate and display nth number(n) and sequence of Fibonacci using recursion
 
 public class Main {
-
+  // main method
   public static void main(String[] args) {
       // pass the value of n for calculateNthSeries
       // return the value
